@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Pizza App</string>
+    <string name="welcome_hint">Welcome</string>
+    <string name="order_title">What would you like to order?</string>
+    <string name="amount_tops_hint">How many toppings(0-6) do you want?</string>
+
+    <string name="error_Tops_num_hint">ERROR, cannot be a negative number</string>
+    <string name="big_pizza_hint">Big Size 55 ₪ </string>
+    <string name="mini_pizza_hint">Small Size 30 ₪ </string>
+
+    <string name="pickle_hint">Pickle</string>
+    <string name="mushrooms_hint">Mushrooms</string>
+    <string name="tomatoes_hint">Tomatoes</string>
+    <string name="hasa_hint">Lettuce</string>
+    <string name="onion_hint">Onion</string>
+    <string name="hot_pepper_hint">Hot Pepper</string>
+
+
+
+    <string name="extraChips_hint">French Fries - 10₪</string>
+    <string name="extreOnionRings_hint">Onion Rings -12₪</string>
+    <string name="ketchup_hint">Ketchup - 2₪</string>
+    <string name="mayo_hint">Mayonnaise -2₪</string>
+
+
+<!--    <string name="Flavours">Flavours</string>-->
+    <string name="current_price">Price to pay is</string>
+    <string name="extra_hint">Extras</string>
+
+    <string name="fullName_hint">"Full Name "</string>
+    <string name="address_hint">"Address "</string>
+    <string name="accepted_hint">Your order accepted!</string>
+    <string name="delivery_btn_hint">Delivery</string>
+    <string name="selfPickup_hint">Self-PickUp</string>
+    <string name="del_pick_rb_hint">Would you like delivery or self-pickUp?</string>
+    <string name="submitbtn_hint">SEND</string>
+<!--    <string name="choose_flavour_hint">Choose flavour</string>-->
+    <string name="orderType_hint">"Order Type "</string>
+    <string name="conclution_hint">Your order</string>
+    <string name="Thank_you_hint">Thank you</string>
+    <string name="exit_hint">Exit</string>
+    <string name="ok_btn_hint">OK</string>
+    <string name="alertMessageHint">Thank you for your order ! Enjoy your meal.</string>
+    <string name="finishAlertBtnHint">Finish</string>
+    <string name="moveToOrderHint">Order Details</string>
+    <string name="PhoneNumberHint">Phone number</string>
+    <string name="Error_size_hint">Please choose size first</string>
+    <string name="Error_fill_top">Please fill in number of tops</string>
+    <string name="wellcome_hint">Welcome!</string>
+    <string name="Error_sent_order">at least one of the fields are empty</string>
+    <string name="Error_delivery_hint">Please choose delivery or self pick-up</string>
+    <string name="no_address_hint">none - self pick up</string>
+    <string name="too_much_Tops_hint">Too much Toppings- try again</string>
+    <string name="total_price_hint">Total price</string>
+    <string name="error_length_phone_hint">Error, phone number should be 10 digits</string>
+
+</resources>

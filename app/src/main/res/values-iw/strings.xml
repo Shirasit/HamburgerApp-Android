@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">חנות גלידה</string>
+    <string name="welcome_hint">ברוכים הבאים</string>
+    <string name="order_title">מה תרצה להזמין?</string>
+    <string name="current_price">המחיר הנוכחי לתשלום</string>
+    <string name="extra_hint">תוספות</string>
+    <string name="fullName_hint">"שם מלא  "</string>
+    <string name="address_hint">"כתובת  "</string>
+    <string name="accepted_hint">ההזמנה נקלטה בהצלחה</string>
+    <string name="delivery_btn_hint">משלוח</string>
+    <string name="selfPickup_hint">איסוף עצמי</string>
+    <string name="del_pick_rb_hint">האם תרצה משלוח או איסוף עצמי ?</string>
+    <string name="submitbtn_hint">שלח</string>
+    <string name="orderType_hint">"אופן איסוף "</string>
+    <string name="conclution_hint">הזמנתך</string>
+    <string name="Thank_you_hint">תודה</string>
+    <string name="exit_hint">צא</string>
+    <string name="ok_btn_hint">"שלח "</string>
+    <string name="alertMessageHint">"תודה על הזמנתך ! בתיאבון "</string>
+    <string name="finishAlertBtnHint">סיים</string>
+    <string name="moveToOrderHint">פרטי הזמנה</string>
+    <string name="PhoneNumberHint">"מספר טלפון "</string>
+    <string name="wellcome_hint">"ברוכים הבאים "</string>
+    <string name="Error_sent_order">שים לב,יש למלא את כל פרטי ההזמנה</string>
+    <string name="Error_delivery_hint">אנא בחר אופן קבלת ההזמנה</string>
+    <string name="no_address_hint">אין- איסוף עצמי</string>
+    <string name="total_price_hint">מחיר לתשלום</string>
+    <string name="error_length_phone_hint">שים לב, מספר פלאפון צריך להכיל  10 ספרות</string>
+    <string name="big_pizza_hint">המבורגר גדול</string>
+    <string name="mini_pizza_hint">המבורגר קטן</string>
+    <string name="amount_tops_hint">כמה תוספות פיצה תרצה להזמין?</string>
+    <string name="mushrooms_hint">פטריות</string>
+    <string name="tomatoes_hint">עגבניות</string>
+    <string name="onion_hint">בצל</string>
+    <string name="hot_pepper_hint">פלפל חריף</string>
+    <string name="Error_size_hint">אנא בחר גודל תחילה</string>
+    <string name="error_Tops_num_hint">שגיאה, לא יכול להיות מספר שלילי</string>
+    <string name="too_much_Tops_hint">יותר מידי תוספות - נסה שוב</string>
+    <string name="pickle_hint">מלפפון חמוץ</string>
+    <string name="hasa_hint">חסה</string>
+    <string name="extraChips_hint">תוספת צ\'יפס</string>
+    <string name="extreOnionRings_hint">תוספת טבעות בצל</string>
+    <string name="ketchup_hint">קטשופ</string>
+    <string name="mayo_hint">מיונז</string>
+    <string name="Error_fill_top">נא מלא את מספר התוספות שאתה רוצה</string>
+
+
+</resources>

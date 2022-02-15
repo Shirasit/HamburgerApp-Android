@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activityLast"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/p17"
+    android:padding="10dp"
+   >
+
+    <TextView
+        android:id="@+id/orderConclusion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/courgetteregular"
+        android:gravity="center"
+        android:text="@string/conclution_hint"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="50sp"></TextView>
+
+    <TextView
+        android:id="@+id/orderName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/orderConclusion"
+        android:fontFamily="@font/courgetteregular"
+        android:gravity="start"
+        android:text="@string/fullName_hint"
+        android:textSize="25sp"></TextView>
+
+    <TextView
+        android:id="@+id/orderAdress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/orderName"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/courgetteregular"
+        android:gravity="start"
+        android:text="@string/address_hint"
+        android:textSize="25sp">
+
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/phoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/orderAdress"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/courgetteregular"
+        android:gravity="start"
+        android:text="@string/PhoneNumberHint"
+        android:textSize="25sp">
+
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/orderToalPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/phoneNumber"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/courgetteregular"
+        android:gravity="start"
+        android:text="@string/total_price_hint"
+        android:textSize="25sp" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/pizza_anim"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_below="@id/orderToalPrice"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/burger" />
+
+    <TextView
+        android:id="@+id/thankyou"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pizza_anim"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/courgetteregular"
+        android:gravity="center|bottom"
+        android:text="@string/Thank_you_hint"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="50sp" />
+
+    <Button
+        android:id="@+id/exitBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/thankyou"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="15dp"
+        android:backgroundTint="@android:color/holo_orange_dark"
+        android:text="@string/exit_hint"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+
+
+
+</RelativeLayout>
